@@ -4,7 +4,9 @@
 - Description: Test your server's network with Speedtest to China
 
 ```bash 
-wget -qO- https://raw.githubusercontent.com/dishuihengxin/testspeed/master/testspeed.sh | bash    
+wget https://raw.githubusercontent.com/dishuihengxin/testspeed/master/testspeed.sh 
+chmod +x testspeed.sh
+bash testspeed.sh
 ```
 ## testbench.sh
 - Description: Auto test download & I/O speed & network to China script
